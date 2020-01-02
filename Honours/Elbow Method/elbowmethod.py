@@ -36,3 +36,17 @@ plt.xlabel('k')
 plt.ylabel('Distortion')
 plt.title('The Elbow Method showing the optimal k')
 plt.show()
+
+kmeans = KMeans(n_clusters=3, init='k-means++', max_iter=300, n_init=10, random_state=0)
+pred_y = kmeans.fit_predict(X)
+centers = np.array(kmeans.cluster_centers_)
+plt.plot()
+plt.title('k means centroids')
+
+for i, l in enumerate(kmeans.labels_):
+    plt.plot(x1[i], x2[i], color=colors[l], marker=markers[l],ls='None')
+    plt.xlim([0, 10])
+    plt.ylim([0, 10])
+
+plt.scatter(centers[:,0], centers[:,1], marker="x", color='r')
+plt.show()
