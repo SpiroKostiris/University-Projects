@@ -22,7 +22,7 @@ X = np.array(list(zip(x1, x2))).reshape(len(x1), 2)
 colors = ['b', 'g', 'r']
 markers = ['o', 'v', 's']
 
-# k means to determine k optimum clustering groups
+# Perform k means to determine k optimum clustering groups
 distortions = []
 K = range(1,10)
 for k in K:
