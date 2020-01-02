@@ -22,7 +22,7 @@ X = np.array(list(zip(x1, x2))).reshape(len(x1), 2)
 colors = ['b', 'g', 'r']
 markers = ['o', 'v', 's']
 
-# k means determine k
+# k means to determine k optimum clustering groups
 distortions = []
 K = range(1,10)
 for k in K:
@@ -37,9 +37,11 @@ plt.ylabel('Distortion')
 plt.title('The Elbow Method showing the optimal k')
 plt.show()
 
+# Fit all X points to optimum clusters found previously
 kmeans = KMeans(n_clusters=3, init='k-means++', max_iter=300, n_init=10, random_state=0)
 pred_y = kmeans.fit_predict(X)
-print(pred_y)
+
+# Plot centroids and all respectively clustered points
 centers = np.array(kmeans.cluster_centers_)
 plt.plot()
 plt.title('k means centroids')
