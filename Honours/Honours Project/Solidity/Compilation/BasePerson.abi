@@ -1,0 +1,374 @@
+[
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getGeneralInformationSaved",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getBirthCertificateInformationSaved",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"components": [
+					{
+						"name": "email",
+						"type": "bytes32"
+					},
+					{
+						"name": "password",
+						"type": "bytes32"
+					},
+					{
+						"name": "townofbirth",
+						"type": "bytes32"
+					},
+					{
+						"name": "forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "surname",
+						"type": "bytes32"
+					},
+					{
+						"name": "prevsurnames",
+						"type": "bytes32"
+					},
+					{
+						"name": "maidenname",
+						"type": "bytes32"
+					},
+					{
+						"name": "postalstreetaddress",
+						"type": "bytes32"
+					},
+					{
+						"name": "postalsuburbaddress",
+						"type": "bytes32"
+					},
+					{
+						"name": "postalcityaddress",
+						"type": "bytes32"
+					},
+					{
+						"name": "residentialstreetaddress",
+						"type": "bytes32"
+					},
+					{
+						"name": "residentialsuburbaddress",
+						"type": "bytes32"
+					},
+					{
+						"name": "residentialcityaddress",
+						"type": "bytes32"
+					},
+					{
+						"name": "father_surname",
+						"type": "bytes32"
+					},
+					{
+						"name": "father_forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "mother_surname",
+						"type": "bytes32"
+					},
+					{
+						"name": "mother_forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "citizenship_ofothercountryreason",
+						"type": "bytes32"
+					},
+					{
+						"name": "marriagepartner_forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "marriagepartner_maidenname",
+						"type": "bytes32"
+					},
+					{
+						"name": "marriagepartner_townmarried",
+						"type": "bytes32"
+					},
+					{
+						"name": "id_remark",
+						"type": "bytes32"
+					},
+					{
+						"name": "passportnumber",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_appreason",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_surname",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_maidenname",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_townofbirth",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_father_surname",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_father_forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_mother_surname",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_personconcerned_mother_forenames",
+						"type": "bytes32"
+					},
+					{
+						"name": "birthcert_type",
+						"type": "uint8"
+					},
+					{
+						"name": "birthcert_personconcerned_dateofbirth",
+						"type": "uint8"
+					},
+					{
+						"name": "birthcert_personconcerned_identitynumber",
+						"type": "uint8"
+					},
+					{
+						"name": "birthcert_personconcerned_birthentrynumber",
+						"type": "uint8"
+					},
+					{
+						"name": "birthcert_personconcerned_provinceofbirth",
+						"type": "uint8"
+					},
+					{
+						"name": "immigrant_countryofcitizenship",
+						"type": "uint8"
+					},
+					{
+						"name": "immigrant_residencepermitnumber",
+						"type": "uint8"
+					},
+					{
+						"name": "immigrant_dateofpermanententry",
+						"type": "uint8"
+					},
+					{
+						"name": "naturalization_certificatenumber",
+						"type": "uint8"
+					},
+					{
+						"name": "naturalization_dateofissuance",
+						"type": "uint8"
+					},
+					{
+						"name": "citizenship_ofothercountrydate",
+						"type": "uint8"
+					},
+					{
+						"name": "citizenship_ofothercountrylocation",
+						"type": "uint8"
+					},
+					{
+						"name": "citizenship_ofothercountrylocationissued",
+						"type": "uint8"
+					},
+					{
+						"name": "countyofcitizenship",
+						"type": "uint8"
+					},
+					{
+						"name": "marriagepartner_identitynumber",
+						"type": "uint8"
+					},
+					{
+						"name": "marriagepartner_dateofbirth",
+						"type": "uint8"
+					},
+					{
+						"name": "marriagepartner_dateofmarriage",
+						"type": "uint8"
+					},
+					{
+						"name": "marriagepartner_maritualstatus",
+						"type": "uint8"
+					},
+					{
+						"name": "dateofbirth",
+						"type": "uint8"
+					},
+					{
+						"name": "identitynumber",
+						"type": "uint8"
+					},
+					{
+						"name": "birthentrynumber",
+						"type": "uint8"
+					},
+					{
+						"name": "postalcode",
+						"type": "uint8"
+					},
+					{
+						"name": "residentialcode",
+						"type": "uint8"
+					},
+					{
+						"name": "homenumber",
+						"type": "uint8"
+					},
+					{
+						"name": "hometelcode",
+						"type": "uint8"
+					},
+					{
+						"name": "worknumber",
+						"type": "uint8"
+					},
+					{
+						"name": "worktelcode",
+						"type": "uint8"
+					},
+					{
+						"name": "cellnumber",
+						"type": "uint8"
+					},
+					{
+						"name": "cellcode",
+						"type": "uint8"
+					},
+					{
+						"name": "idcardnumber",
+						"type": "uint8"
+					},
+					{
+						"name": "tbvc_idnumber",
+						"type": "uint8"
+					},
+					{
+						"name": "provinceofbirth",
+						"type": "uint8"
+					},
+					{
+						"name": "countryofbirth",
+						"type": "uint8"
+					},
+					{
+						"name": "maritualstatus",
+						"type": "uint8"
+					},
+					{
+						"name": "nationality",
+						"type": "uint8"
+					},
+					{
+						"name": "gender",
+						"type": "bool"
+					},
+					{
+						"name": "id_lateregistration",
+						"type": "bool"
+					},
+					{
+						"name": "tbvc",
+						"type": "bool"
+					},
+					{
+						"name": "naturalization_acquiredbeforedate",
+						"type": "bool"
+					},
+					{
+						"name": "citizenship_ofothercountry",
+						"type": "bool"
+					},
+					{
+						"name": "hasgeneralinformationsaved",
+						"type": "bool"
+					},
+					{
+						"name": "hasidentityinformationsaved",
+						"type": "bool"
+					},
+					{
+						"name": "hasbirthcertificateinformationsaved",
+						"type": "bool"
+					}
+				],
+				"name": "tempperson",
+				"type": "tuple"
+			}
+		],
+		"name": "setPerson",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getIDInformationSaved",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getNumberPeople",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
