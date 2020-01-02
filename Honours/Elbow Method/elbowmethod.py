@@ -39,6 +39,7 @@ plt.show()
 
 kmeans = KMeans(n_clusters=3, init='k-means++', max_iter=300, n_init=10, random_state=0)
 pred_y = kmeans.fit_predict(X)
+print(pred_y)
 centers = np.array(kmeans.cluster_centers_)
 plt.plot()
 plt.title('k means centroids')
